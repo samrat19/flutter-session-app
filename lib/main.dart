@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("DSC Flutter"),
+        title: Text("DSC TIU Flutter"),
         backgroundColor: Colors.red,
       ),
       body: Container(
@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
         child: Center(
           child: RaisedButton(
             onPressed: () {
-              
               Navigator.of(context)
                   .push(MaterialPageRoute(builder: (_) => HomePage()));
             },
@@ -87,7 +86,7 @@ class MyApp extends StatelessWidget {
                   exit(0);
                 },
                 title: Text(
-                  'Apps',
+                  'Application',
                   style: TextStyle(fontSize: 25),
                 ),
               ),
